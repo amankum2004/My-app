@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_light_primary">#fff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="UW">#FFEB3B</color>
+    <color name="H">#4CAF50</color>
+    <color name="OW">#F44336</color>
+    <color name="Ob">#FC0000</color>
+    <color name="dark_theme">#000</color>
+</resources>

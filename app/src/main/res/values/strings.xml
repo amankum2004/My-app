@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My App</string>
+    <!--    <string name="About">About_page</string>-->
+    <!--    <string name="btn_text">Contact Us</string>-->
+    <string name="text_wt">Enter your weight(KG)</string>
+    <string name="text_ht_ft">Enter your height(in ft)</string>
+    <string name="text_ht_in">Enter your height(in Inch)</string>
+    <string name="text_ht_cm">Enter your height(in cm)</string>
+    <string name="btn">Calculate BMI</string>
+    <string name="rst">Result</string>
+    <string name="nextbtn">Next</string>
+    <string name="category">Select your category according to BMI</string>
+    <string name="btn1">Healthy</string>
+    <string name="btn2">Underweight</string>
+    <string name="btn3">Overweight</string>
+    <string name="btn4">Obese</string>
+    <string name="healthy">Tips to remain Healthy</string>
+    <string name="healthy1">Diet: Maintain a balanced diet that includes a variety of nutrients from all food groups. Emphasize whole foods, limit processed foods, and pay attention to portion sizes.</string>
+    <string name="healthy2">Exercises: Aim for a combination of cardiovascular exercises (such as brisk walking, jogging, cycling) and strength training exercises to promote overall health and fitness.</string>
+    <string name="uw">If you are UnderWeight follow these tips</string>
+    <string name="uw1">Diet: Focus on nutrient-dense foods to increase calorie intake, including lean proteins, healthy fats, complex carbohydrates, fruits, and vegetables.</string>
+    <string name="uw2">Exercises: Incorporate strength training exercises to build muscle mass and increase overall strength. Cardiovascular exercises can also be beneficial for improving fitness levels.</string>
+    <string name="ow">If you are OverWeight follow these tips</string>
+    <string name="ow1">Diet: Focus on portion control, reducing calorie intake, and making healthier food choices. Increase consumption of fruits, vegetables, whole grains, and lean proteins while minimizing intake of sugary drinks, processed foods, and high-fat foods.</string>
+    <string name="ow2">Exercises: Incorporate a mix of aerobic exercises (such as swimming, dancing, or elliptical training) and strength training exercises to help burn calories, build muscle, and improve metabolic health.</string>
+    <string name="ob">If you are Obese follow these tips</string>
+    <string name="ob1">Diet: Adopt a calorie-controlled diet that promotes weight loss while ensuring adequate nutrient intake. Emphasize whole foods, fiber-rich foods, lean proteins, and healthy fats. Consider working with a registered dietitian for personalized guidance.</string>
+    <string name="ob2">Exercises: Engage in regular moderate to vigorous intensity aerobic exercises, such as running, cycling, or high-intensity interval training (HIIT), along with strength training exercises to support weight loss and improve overall fitness levels.</string>
+    <string name="services">Our Services</string>
+    <string name="ser1">Personalized Treatment</string>
+    <string name="ser2">Nutritional Guidance</string>
+    <string name="ser3">Progress tracking and Analytics</string>
+    <string name="ser4">Supplements</string>
+</resources>

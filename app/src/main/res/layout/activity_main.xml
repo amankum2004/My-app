@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginTop="50dp"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/llmain"
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bmi"/>
+
+        <EditText
+            android:id="@+id/edtWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:hint="@string/text_wt"
+            android:inputType="number" />
+
+
+        <!--    <EditText-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:ems="10"-->
+        <!--        android:inputType="number"-->
+        <!--        android:id="@+id/edtHeight1"-->
+        <!--        android:hint="@string/text_ht_ft"/>-->
+
+        <!--    <EditText-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:ems="10"-->
+        <!--        android:inputType="number"-->
+        <!--        android:id="@+id/edtHeight2"-->
+        <!--        android:hint="@string/text_ht_in"/>-->
+
+
+        <EditText
+            android:id="@+id/edtHeight3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/text_ht_cm"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#439647"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/btn" />
+
+        <TextView
+            android:id="@+id/rst"
+            style="@style/MyTextBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/rst"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/cardview"-->
+        <!--                android:layout_width="350dp"-->
+        <!--                android:layout_height="400dp"-->
+        <!--                android:layout_marginTop="20dp"-->
+        <!--                android:elevation="11dp"-->
+        <!--                app:cardBackgroundColor="#F09696"-->
+        <!--                app:cardCornerRadius="11dp"-->
+        <!--                app:cardUseCompatPadding="true" />-->
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="470dp"
+            android:backgroundTint="#5E35B1"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:text="@string/nextbtn" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

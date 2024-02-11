@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".services">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/services"
+        android:textStyle="bold"
+        android:textColor="#8E24AA"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/serbtn1"
+        android:layout_height="wrap_content"
+        android:text="@string/ser1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#00897B"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/serbtn2"
+        android:text="@string/ser2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FB8C00"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/serbtn3"
+        android:text="@string/ser3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#43A047"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/serbtn4"
+        android:text="@string/ser4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#3949AB"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
